@@ -54,7 +54,7 @@ def main():
     '''
     Request users input
     '''
-    user_input: str = input('PLease [rovide a file path to sort')
+    user_input: str = input('Please provide a file path to sort:')
 
     if os.path.exists(user_input):
         sort_files(user_input)
@@ -62,6 +62,7 @@ def main():
         print('Files sorted successfully')
     else:
         print('Invalid path, please provide a valid path')
+        main()
 
 
 if __name__ == '__main__':
