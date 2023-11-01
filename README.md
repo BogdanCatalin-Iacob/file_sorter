@@ -34,3 +34,12 @@ The following commands were used throughout the project:
 5. Go to the location where you want the clone to be created
 6. Type `git clone`, and then paste the URL you copied in step 3
 7. Press `Enter` and the clone will be created
+
+### Forking the GitHub repository
+
+Forking means making a copy of the original repository on your own GitHub account.
+This gives you your own version to make changes without affecting the original repository.
+
+1. Log in to GitHub and locate [GitHub Repository](https://github.com/BogdanCatalin-Iacob/file_sorter)
+2. Locate the `Fork` button at the top right of the GitHub page
+3. Click this to see the `Create a new fork` page. Click `Create fork` and you should now have a copy of the original repository in your GitHub account.
