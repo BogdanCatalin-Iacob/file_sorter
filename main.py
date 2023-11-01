@@ -35,3 +35,16 @@ def sort_files(source_path: str):
                 target_path: str = os.path.join(target_folder, filename)
 
                 shutil .move(file_path, target_path)
+
+
+def remove_empty_folders(source_path: str):
+    '''
+    Removes all empty folders after files sorting
+    '''
+    # check subdirectories first and then root directory
+    for root_dir, sub_dir, filenames in os.walk(source_path, topdown=False):
+        for current_dir in sub_dir:
+            folder_path: str = os.path.join(root_dir, current_dir)
+
+            if not os.listdir(folder_path):
+                os.rmdir(folder_path)
