@@ -43,3 +43,6 @@ This gives you your own version to make changes without affecting the original r
 1. Log in to GitHub and locate [GitHub Repository](https://github.com/BogdanCatalin-Iacob/file_sorter)
 2. Locate the `Fork` button at the top right of the GitHub page
 3. Click this to see the `Create a new fork` page. Click `Create fork` and you should now have a copy of the original repository in your GitHub account.
+
+### Run locally
+To run this project on your computer open a terminal, navigate to the project directory and type: `python main.py`.
