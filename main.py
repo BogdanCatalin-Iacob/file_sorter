@@ -48,3 +48,21 @@ def remove_empty_folders(source_path: str):
 
             if not os.listdir(folder_path):
                 os.rmdir(folder_path)
+
+
+def main():
+    '''
+    Request users input
+    '''
+    user_input: str = input('PLease [rovide a file path to sort')
+
+    if os.path.exists(user_input):
+        sort_files(user_input)
+        remove_empty_folders(user_input)
+        print('Files sorted successfully')
+    else:
+        print('Invalid path, please provide a valid path')
+
+
+if __name__ == '__main__':
+    main()
