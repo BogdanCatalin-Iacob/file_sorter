@@ -1,5 +1,8 @@
 # File Sorter
 
+## Description
+The program will take the files and place them in folders named by the file extensions.
+
 git init
 git add README.md
 git commit -m "first commit"
